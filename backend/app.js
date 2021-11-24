@@ -17,3 +17,9 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
 module.exports = app;
+
+function App() {
+    return <div className="App">Je commence enfin</div>
+}
+
+export default App;
