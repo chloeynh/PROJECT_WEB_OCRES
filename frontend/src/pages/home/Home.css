@@ -1,3 +1,18 @@
 .home {
     flex: 4;
 }
+
+.homeContainer1 {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.homeContainer2 {
+    display: flex; 
+    width: 100%;
+}
+
+.homeContainer3 {
+    width: 100%;
+}

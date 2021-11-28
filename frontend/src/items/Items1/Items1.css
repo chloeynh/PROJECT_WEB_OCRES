@@ -1,0 +1,31 @@
+.items1, .items2, .items3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.itemsComponent1 {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 14px -2px #000000; 
+    box-shadow: 0px 0px 14px -2px #000000;
+}
+
+.itemsComponent2 {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 14px -2px #000000; 
+    box-shadow: 0px 0px 14px -2px #000000;
+}
+
+.itemsComponent3 {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 14px -2px #000000; 
+    box-shadow: 0px 0px 14px -2px #000000;
+}
+
+
