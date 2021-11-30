@@ -11,6 +11,7 @@ export default function Items1() {
                 <div className="meteoContainer">
                 <span className="meteoLocation">Paris</span><br/>
                 <span className="meteoTemperature">5°C</span>
+                text<br/>text<br/>text<br/>text<br/>text<br/>
                 </div>
             </div>
             
@@ -35,7 +36,7 @@ export default function Items1() {
             <div className="itemsComponent2">
                 <span className="itemsTitle">La carte</span>
                 <div className="carteContainer">
-                google maps j'imagine
+                google maps j'imagine text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>
                 </div>
             </div>
             
@@ -53,7 +54,7 @@ export default function Items1() {
             <div className="itemsComponent3">
                 <span className="itemsTitle">Les trains prêts à partir</span>
                 <div className="trainContainer">
-                trains depuis là où il est
+                trains depuis là où il est text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>text<br/>
                 </div>
             </div>
 

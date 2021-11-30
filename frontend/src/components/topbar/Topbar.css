@@ -1,8 +1,10 @@
 .topbar {
     width: 100%;
-    height: 50px;
+    height: 100px;
     position: sticky;
     top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .topbarWrapper {
@@ -12,9 +14,26 @@
     justify-content: space-between;
 }
 
+.topLeft {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-weight: bold;
     color:forestgreen;
     cursor: pointer;
     margin: 0 20px;
+    font-size: 30px;
+}
+
+.carte {
+    margin: 0 20px;
+}
+
+.reglage {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
 }
