@@ -6,14 +6,15 @@ import carte from "./carte.png"
 
 export default function Topbar() {
     return (
-        <div className="topbar">
-            <div className="topbarWrapper"> 
-                <div className="topLeft">
-                    <img src={carte} className="carte"/>
-                    <h2 className="logo">Mon guide de voyage</h2>
-                </div>
-                <div className="topRight"><img src={reglages} className="reglage"/></div>
-            </div>
 
+        <div class="header">
+            <div class="sides"> <img src={reglages} className="reglages"/></div>
+            <div class="info">
+                <h1>Mon guide de voyage</h1>
+                <div class="meta">
+                    By Chloé Y NHAO on November 29, 2021
+                </div>
+            </div>
         </div>)
+        
 }
