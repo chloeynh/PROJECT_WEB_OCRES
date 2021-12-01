@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Topbar.css"
 import reglages from "./reglages.png"
-import carte from "./carte.png"
 
 
 export default function Topbar() {

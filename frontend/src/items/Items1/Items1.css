@@ -1,3 +1,7 @@
+.items {
+    margin-top: 2%;
+}
+
 .items1, .items2, .items3 {
     display: flex;
     justify-content: space-around;
