@@ -42,7 +42,6 @@ export default class Calendrier extends React.Component {
     componentDidMount() {
         axios.get(`https://timezone.abstractapi.com/v1/current_time?api_key=${API_key}&location=${this.state.city}`)
             .then(res => {
-                console.log(res.data);
                 this.setState(state => (
                     {
                         date0: res.data.datetime[0],

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Meteo from './Meteo'
 import Calendrier from './Calendrier'
-import Traduction from './Traduction'
+import Traduction from '../../components/Traduction'
 
 
 export default function Home() {

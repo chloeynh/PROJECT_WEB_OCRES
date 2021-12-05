@@ -16,7 +16,6 @@ export default class WeatherWidget extends React.Component {
       temp: "",
       temp_max: "",
       temp_min: "",
-      description: ""
 
     }
     this.handleClick = this.handleClick.bind(this);
@@ -32,7 +31,6 @@ export default class WeatherWidget extends React.Component {
           {
             icon: `http://openweathermap.org/img/wn/${res.data.weather[0].icon}@2x.png`,
             main: res.data.weather[0].main,
-            description: res.data.weather[0].description,
             temp: res.data.main.temp,
             temp_max: res.data.main.temp_max,
             temp_min: res.data.main.temp_min
@@ -50,7 +48,6 @@ export default class WeatherWidget extends React.Component {
           {
             icon: `http://openweathermap.org/img/wn/${res.data.weather[0].icon}@2x.png`,
             main: res.data.weather[0].main,
-            description: res.data.weather[0].description,
             temp: res.data.main.temp,
             previous: this.state.city,
             temp_max: res.data.main.temp_max,
@@ -75,7 +72,6 @@ export default class WeatherWidget extends React.Component {
         <span className="itemsTitle">Météo</span>
         <div className="meteoComponent">
           <div className="cityTemp">{this.state.previous}</div>
-          <div className="descriptionTemp">{this.state.description}</div>
           <div className="meteoTemp">{this.state.temp}°C</div>
           <div className="mainTemp">{this.state.main}</div>
           <img src={this.state.icon} alt="forecast" />
