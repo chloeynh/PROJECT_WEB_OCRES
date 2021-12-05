@@ -1,5 +1,7 @@
 .footer {
     width: 100%;
-    height: 50px;
-    background-color: rgb(227, 255, 227);
+    background-color: rgb(130, 132, 130);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
 }

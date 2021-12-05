@@ -4,39 +4,41 @@
     height: calc (100vh - 50px) ;
     
 }
+.sidebarMenu {
+    text-align: center;
+}
 
 .sidebarWrapper {
-    padding: 20px;
+    padding: 1.2em;
     color: grey;
 }
-
-.sidebarMenu {
-    margin-bottom: 10px;
-}
-
 .sidebarTitle {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.9em;
     color: grey;
 }
 .sidebarList {
     list-style: none;
-    padding: 5px;
+    padding: 0.4em;
     color: rgb(95, 95, 95);
 }
 
 .sidebarListItem {
-    padding: 8px;
+    padding: 0.45em;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.5em;
 }
-.sidebarListItem:hover, .sidebarListItem.active {
-    background-color: rgb(227, 255, 227);
+.sidebarListItem.active {
+    background-color:rgb(181, 205, 181);
+}
+
+.sidebarListItem:hover {
+    background-color:rgb(218, 234, 218);
 }
 
 .icone {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+    width: 1.3em;
+    height: 1.3em;
+    margin-right: 0.4em;
 } 

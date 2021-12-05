@@ -6,12 +6,12 @@ import reglages from "./reglages.png"
 export default function Topbar() {
     return (
 
-        <div class="header">
-            <div class="sides"> <img src={reglages} className="reglages"/></div>
-            <div class="info">
+        <div className="topbar">
+            <div className="sides"> <a href="#"> <img src={reglages} className="reglages"/> </a> </div> 
+            <div className="info">
                 <h1>Mon guide de voyage</h1>
-                <div class="meta">
-                    By Chloé Y NHAO on November 29, 2021
+                <div className="meta">
+                    By Joé LHUERRE and Chloé Y NHAO on November 29, 2021 
                 </div>
             </div>
         </div>)
