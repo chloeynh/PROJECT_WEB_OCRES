@@ -80,7 +80,7 @@ export default class WeatherWidget extends React.Component {
             <div className="maxTemp"><div>Max.</div><div>{this.state.temp_max}°C</div></div>
           </div>
           <input type="text" placeholder="Où es-tu ?" onChange={event => this.handleChange(event)} />
-          <button onClick={this.handleClick}>Avoir la météo</button>
+          <button onClick={this.handleClick}>Valider</button>
         </div>
       </div>
     )
