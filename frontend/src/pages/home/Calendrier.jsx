@@ -76,6 +76,7 @@ export default class Calendrier extends React.Component {
             .then(res => {
                 this.setState(state => (
                     {
+                        previous: this.state.city,
                         date0: res.data.datetime[0],
                         date1: res.data.datetime[1],
                         date2: res.data.datetime[2],
@@ -146,7 +147,7 @@ export default class Calendrier extends React.Component {
                         </div>
                     </div>
                     <input type="text" placeholder="Où es-tu ?" onChange={event => this.handleChange(event)} />
-                        <button onClick={this.handleClick}>Avoir la date et l'heure</button>
+                        <button onClick={this.handleClick}>Valider</button>
                 </div>
 
             </div>
