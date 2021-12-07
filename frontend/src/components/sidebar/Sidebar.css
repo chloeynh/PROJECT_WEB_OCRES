@@ -35,6 +35,7 @@
 
 .sidebarListItem:hover {
     background-color:rgb(218, 234, 218);
+    cursor: pointer;
 }
 
 .icone {

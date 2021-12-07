@@ -1,9 +1,13 @@
-var express = require("express");
-var router = express.Router();
+const express = require('express');
+const app = express();
+require('../models/dbConfig');
+const postsRoutes = require('../postsController');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const cors = require('cors');
 
-/* GET home page. */
-router.get("/", function(req, res, next) {
-  res.send("This is my homepage");
-});
+app.use(bodyParser.json());
+app.use(cors());
+app.use('/', postsRoutes);
 
-module.exports = router;
+app.listen(3001, () => console.log('Server started: 3001'));

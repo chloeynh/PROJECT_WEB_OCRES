@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_key = "AIzaSyC7eQHFT-1EBe2P4E-Nv5UJXZet-0vdNYk"
 
-export default class WidgetImage extends React.Component {
+export default class Image extends React.Component {
 
   constructor(props) {
     super(props);

@@ -2,7 +2,11 @@ import React from 'react'
 import "./Home.css"
 import Meteo from './Meteo'
 import Calendrier from './Calendrier'
-import Traduction from '../../components/Traduction'
+import Image from './Images'
+import Flights from './Flights'
+import Monnaie from './Monnaie'
+import Carte from './Carte'
+//import Traduction from './Traduction'
 
 
 export default function Home() {
@@ -19,38 +23,33 @@ export default function Home() {
                 </div>
 
                 <div className="itemsComponent1">
-                    <Traduction />
+                    <Carte />
                 </div>
-
-            </div>
-
-            <div className="items2">
-
-                <div className="itemsComponent2">
-                    <span className="itemsTitle">La carte</span>
-                    <div className="carteContainer">
-                        google maps j'imagine text<br />text<br />text<br />text<br />text<br />text<br />text<br />text<br />text<br />
-                    </div>
-                </div>
-
-                <div className="itemsComponent2">
-                    <span className="itemsTitle">Quelques photos de là où vous êtes</span>
-                    <div className="photoContainer">
-                        Photo de là où il est
-                    </div>
-                </div>
-
             </div>
 
             <div className="items3">
-
                 <div className="itemsComponent3">
-                    <span className="itemsTitle">Les trains prêts à partir</span>
-                    <div className="trainContainer">
-                        trains depuis là où il est text<br />text<br />text<br />text<br />text<br />text<br />text<br />text<br />text<br />
-                    </div>
+                    <Flights />
+                </div>
+            </div>
+
+            <div className="items2">
+                <div className="itemsComponent2">
+                    <span className="itemsTitle">Traduction</span>
+                    {/* <Traduction /> */}
                 </div>
 
+                <div className="itemsComponent2">
+                    <Image />
+                </div>
+            </div>
+
+            <div className="items3">
+                <div className="itemsComponent3">
+                    {/* <Monnaie /> */}
+                    <canvas id="graph"></canvas>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+                </div>
             </div>
 
         </div>)
